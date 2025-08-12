@@ -41,11 +41,11 @@
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename"></h1>
-      </a>
+<a href="index.html" class="logo d-flex align-items-center">
+  <img src="assets/img/logo.png" alt="Logo" style="height: 40px; margin-right: 10px;">
+  <h1 class="sitename">Yohana Trinita Sianturi</h1>
+</a>
+
 
       <nav id="navmenu" class="navmenu">
         <ul>
@@ -387,79 +387,66 @@
 <!-- /Portfolio Section -->
 
 
-  <!-- Contact Form Section -->
-<section id="contact-form" class="contact section">
+   <!-- Contact Section -->
+<section id="contact" class="contact section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Contact</h2>
+    <p>Feel free to reach out for collaborations, project discussions, or any inquiries.</p>
+  </div><!-- End Section Title -->
+
   <div class="container" data-aos="fade-up" data-aos-delay="100">
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
 
-        <div class="info-wrap p-4 rounded shadow-sm" style="background: var(--surface-color);">
-          <h4 class="text-center mb-4 fw-bold" style="color: var(--heading-color);">Send Me a Message</h4>
+    <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+      <div class="row gy-5">
 
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-            <div class="row gy-3">
-
-              <!-- Name -->
-              <div class="col-md-6">
-                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-              </div>
-
-              <!-- Email -->
-              <div class="col-md-6">
-                <input type="email" name="email" class="form-control" placeholder="Your Email" required>
-              </div>
-
-              <!-- Subject -->
-              <div class="col-12">
-                <input type="text" name="subject" class="form-control" placeholder="Subject" required>
-              </div>
-
-              <!-- Message -->
-              <div class="col-12">
-                <textarea name="message" class="form-control" rows="5" placeholder="Message" required></textarea>
-              </div>
-
-              <!-- Submit -->
-              <div class="col-12 text-center mt-3">
-                <button type="submit" class="btn btn-primary px-4 py-2 fw-bold">
-                  <i class="bi bi-send"></i> Send Message
-                </button>
-              </div>
-
+        <div class="col-lg-3 col-md-6">
+          <div class="info-item d-flex align-items-center">
+            <i class="bi bi-geo-alt flex-shrink-0"></i>
+            <div>
+              <h3>Address</h3>
+              <p>Bogor, Indonesia</p>
             </div>
-          </form>
-        </div>
+          </div>
+        </div><!-- End Info Item -->
+
+        <div class="col-lg-3 col-md-6">
+          <div class="info-item d-flex align-items-center">
+            <i class="bi bi-whatsapp flex-shrink-0"></i>
+            <div>
+              <h3>WhatsApp</h3>
+              <p><a href="https://wa.me/6281263955998" target="_blank">+62 812 6395 5998</a></p>
+            </div>
+          </div>
+        </div><!-- End Info Item -->
+
+        <div class="col-lg-3 col-md-6">
+          <div class="info-item d-flex align-items-center">
+            <i class="bi bi-envelope flex-shrink-0"></i>
+            <div>
+              <h3>Email</h3>
+              <p><a href="mailto:youwthree@gmail.com">youwthree@gmail.com</a></p>
+            </div>
+          </div>
+        </div><!-- End Info Item -->
+
+        <div class="col-lg-3 col-md-6">
+          <div class="info-item d-flex align-items-center">
+            <i class="bi bi-linkedin flex-shrink-0"></i>
+            <div>
+              <h3>LinkedIn</h3>
+              <p><a href="https://www.linkedin.com/in/yohana-trinita" target="_blank">linkedin.com/in/yohana-trinita</a></p>
+            </div>
+          </div>
+        </div><!-- End Info Item -->
+
+        
 
       </div>
     </div>
   </div>
-</section>
-
-<!-- CSS Sesuai Tema -->
-<style>
-  #contact-form .form-control {
-    border-radius: 8px;
-    border: 1px solid var(--accent-color);
-    background-color: var(--background-color);
-    color: var(--default-color);
-    box-shadow: none;
-    transition: 0.3s;
-  }
-  #contact-form .form-control:focus {
-    border-color: var(--primary-color);
-    box-shadow: 0 0 0 0.2rem rgba(var(--primary-rgb), 0.25);
-  }
-  #contact-form button {
-    background-color: var(--primary-color);
-    border: none;
-    border-radius: 8px;
-    transition: 0.3s;
-  }
-  #contact-form button:hover {
-    background-color: var(--primary-hover-color);
-  }
-</style>
-
+</section><!-- /Contact Section -->
 
 
   </main>
